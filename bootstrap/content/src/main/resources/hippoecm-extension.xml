@@ -195,66 +195,91 @@
       <sv:value>/content/documents/corporate</sv:value>
     </sv:property>
   </sv:node>
-
-  
-  
-  
-  
-  
-<sv:node sv:name="wk-multi-content-documents-corporate-wkmultidrie">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30055.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/corporate/wkmultidrie.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/corporate</sv:value>
-    </sv:property>
-  </sv:node>
-<sv:node sv:name="wk-multi-content-documents-corporate-wkmultitwee">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30055.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/corporate/wkmultitwee.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/corporate</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="wk-multi-content-documents-corporate-wkmulti">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30055.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/corporate/wkmulti.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/corporate</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="wk-multi-content-documents-corporate-test">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30055.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/corporate/test.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/corporate</sv:value>
-    </sv:property>
-  </sv:node>
+    <!-- wkmulti -->
+    <sv:node sv:name="wk-multi-content-documents-corporate-wkmulti">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30055.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>content/documents/corporate/wkmulti/wk-multi.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/content/documents/corporate/</sv:value>
+        </sv:property>
+    </sv:node>
+    <sv:node sv:name="wk-multi-content-documents-corporate-wkmulti-news">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30055.1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>content/documents/corporate/wkmulti/news.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/content/documents/corporate/wkmulti</sv:value>
+        </sv:property>
+    </sv:node>
+    <!-- wkmultitwee -->
+    <sv:node sv:name="wk-multi-content-documents-corporate-wkmultitwee">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30055.2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>content/documents/corporate/wkmultitwee/wkmultitwee.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/content/documents/corporate/</sv:value>
+        </sv:property>
+    </sv:node>
+    <sv:node sv:name="wk-multi-content-documents-corporate-wkmultitwee-news">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30055.3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>content/documents/corporate/wkmultitwee/news.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/content/documents/corporate/wkmultitwee</sv:value>
+        </sv:property>
+    </sv:node>
+    <!--- wkmultidrie -->
+    <sv:node sv:name="wk-multi-content-documents-corporate-wkmultidrie">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30055.4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>content/documents/corporate/wkmultidrie/wkmultidrie.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/content/documents/corporate/</sv:value>
+        </sv:property>
+    </sv:node>
+    <sv:node sv:name="wk-multi-content-documents-corporate-wkmultidrie-news">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:initializeitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:sequence" sv:type="Double">
+            <sv:value>30055.5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentresource" sv:type="String">
+            <sv:value>content/documents/corporate/wkmultidrie/news.xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:contentroot" sv:type="String">
+            <sv:value>/content/documents/corporate/wkmultidrie</sv:value>
+        </sv:property>
+    </sv:node>
 </sv:node>
