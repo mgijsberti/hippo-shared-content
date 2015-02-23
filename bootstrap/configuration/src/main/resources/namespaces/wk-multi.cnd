@@ -1,0 +1,27 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'wkmulti'='http://www.onehippo.org/wkmulti/nt/1.0'>
+
+[wkmulti:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[wkmulti:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[wkmulti:author] > hippostd:relaxed, hippotranslation:translated, wkmulti:basedocument
+  orderable
+
+[wkmulti:bannerdocument] > hippostd:relaxed, hippotranslation:translated, wkmulti:basedocument
+  orderable
+
+[wkmulti:blogpost] > hippostd:relaxed, hippotranslation:translated, wkmulti:basedocument
+  orderable
+
+[wkmulti:contentdocument] > hippostd:relaxed, hippotranslation:translated, wkmulti:basedocument
+  orderable
+
+[wkmulti:newsdocument] > hippostd:relaxed, hippotranslation:translated, wkmulti:basedocument
+  orderable
+
